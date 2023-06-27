@@ -14,4 +14,4 @@ The input data for this project is organized as follows:
 
 ## Contact
 
-For any questions or inquiries, please contact [Rocco Caccioppoli](mailto:rocco.caccioppoli@cmcc.it).
+For any questions or inquiries, please contact [Rocco Caccioppoli](mailto:rocco.caccioppoli@cmcc.it) or [Rosalia Maglietta](mailto:rosalia.maglietta@cnr.it).
