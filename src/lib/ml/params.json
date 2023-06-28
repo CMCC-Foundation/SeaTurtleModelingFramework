@@ -1,0 +1,61 @@
+{
+  "RandomForestClassifier": {
+    "n_estimators": {
+      "class": "Integer",
+      "module": "skopt.space",
+      "kwargs": {
+        "low": 10,
+        "high": 1000
+      }
+    },
+    "max_depth": {
+      "class": "Integer",
+      "module": "skopt.space",
+      "kwargs": {
+        "low": 1,
+        "high": 100
+      }
+    },
+    "min_samples_split": {
+      "class": "Integer",
+      "module": "skopt.space",
+      "kwargs": {
+        "low": 2,
+        "high": 20
+      }
+    },
+    "min_samples_leaf": {
+      "class": "Integer",
+      "module": "skopt.space",
+      "kwargs": {
+        "low": 1,
+        "high": 20
+      }
+    },
+    "max_features": {
+      "class": "Categorical",
+      "module": "skopt.space",
+      "choices": [
+        "sqrt",
+        "log2",
+        null
+      ]
+    },
+    "bootstrap": {
+      "class": "Categorical",
+      "module": "skopt.space",
+      "choices": [
+        true,
+        false
+      ]
+    },
+    "criterion": {
+      "class": "Categorical",
+      "module": "skopt.space",
+      "choices": [
+        "gini",
+        "entropy"
+      ]
+    }
+  }
+}
