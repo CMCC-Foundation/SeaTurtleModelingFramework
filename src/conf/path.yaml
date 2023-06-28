@@ -1,0 +1,22 @@
+log:
+  dir: log/
+  analysis: log/analysis/
+  ml: log/ml/
+
+input:
+  dir: input/
+  presence:
+    dir: input/presence/
+    excel: input/presence/features.xlsx
+    name: Presence
+  absence:
+    dir: input/absence/
+    excel: input/absence/features.xlsx
+    name: Absence
+
+output:
+  dir: output/
+  analysis:
+    dir: output/analysis/
+    ttest: output/analysis/ttest.xlsx
+  training: output/training/

@@ -1,0 +1,56 @@
+
+# Names of all variables used
+names:
+  - Temperature
+  - Salinity
+  - Mixed_Layer_Depth
+  - Primary_Production
+  - Nitrate
+  - Phosphate
+  - 3D-Chlorophyll
+  - Phytoplankton
+  - U_Currents_Component
+  - V_Currents_Component
+  - Surface_Chlorophyll
+  - Currents_Intensity
+  - Currents_Direction
+  - Squared_Brunt_Vaisala_Frequency
+  - Density
+  - Season
+
+# Name of variables used only in the learning process
+learning:
+  - Temperature
+  - Salinity
+  - Mixed_Layer_Depth
+  - Primary_Production
+  - Nitrate
+  - Phosphate
+  - 3D-Chlorophyll
+  - Phytoplankton
+  - U_Currents_Component
+  - V_Currents_Component
+  - Surface_Chlorophyll
+  - Currents_Intensity
+  - Currents_Direction
+  - Squared_Brunt_Vaisala_Frequency
+  - Density
+  - Depth
+
+# Name of variables used in analysis process, the boolean value is used to configuration
+analysis:
+  - {Temperature: false}
+  - {Salinity: false}
+  - {Mixed_Layer_Depth: false}
+  - {Primary_Production: false}
+  - {Nitrate: false}
+  - {Phosphate: false}
+  - {3D-Chlorophyll: false}
+  - {Phytoplankton: false}
+  - {U_Currents_Component: false}
+  - {V_Currents_Component: false}
+  - {Surface_Chlorophyll: false}
+  - {Currents_Intensity: false}
+  - {Currents_Direction: false}
+  - {Squared_Brunt_Vaisala_Frequency: false}
+  - {Density: false}
