@@ -129,3 +129,4 @@ dmypy.json
 log/
 output/
 .vscode/
+stmf_env/
