@@ -1,4 +1,14 @@
 ﻿# SeaTurtleModelingFramework
+ 
+## Table of Contents:
+- [Table of Contents:](#table-of-contents)
+- [Description](#description)
+- [Data](#data)
+- [Source Code](#source-code)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Contact](#contact)
+- [License](#license)
 
 ## Description
 
