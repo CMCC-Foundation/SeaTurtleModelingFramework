@@ -9,11 +9,11 @@
 - [Contact](#contact)
 - [License](#license)
 
-## Description
+## Description [to ToC](#table-of-contents)
 
 This project focuses on modeling Mediterranean sea turtles using satellite tracking, environmental variables, and machine learning techniques. The goal is to understand the movement patterns and habitat selection of loggerhead sea turtles (Caretta caretta) in the Mediterranean Sea to support conservation and ecosystem management efforts.
 
-## Data
+## Data  [to ToC](#table-of-contents)
 
 The input data for this project is organized as follows:
 
@@ -21,7 +21,7 @@ The input data for this project is organized as follows:
   - `presence`: Contains Excel files with the presence data of loggerhead sea turtles, including corresponding features.
   - `absence`: Contains Excel files with the absence data of loggerhead sea turtles, including corresponding features.
 
-## Source Code
+## Source Code [to ToC](#table-of-contents)
 
 The source code for this project is organized as follows:
 
@@ -33,7 +33,7 @@ The source code for this project is organized as follows:
     - `train.py`: The script trains a classifier using presence and absence data. The classifier used is a Random Forest Classifier and the search method is BayesSearchCV.
     - `run.py`: The main scripts that offer a CLI interface to performs the two experiment (training and analysis)
 
-## Setup
+## Setup [to ToC](#table-of-contents)
 
 To set up the project, follow these steps:
 
@@ -62,7 +62,7 @@ To set up the project, follow these steps:
      ```
      pip install -r requirements.txt
      ```
-## Usage
+## Usage [to ToC](#table-of-contents)
 
 To use this framework, follow these steps:
 
@@ -84,10 +84,10 @@ python -m src.main.run -a
 
 You can also use multiple options together, such as `-t -a`, to perform both training and analysis.
 
-## Contact
+## Contact [to ToC](#table-of-contents)
 
 For any questions or inquiries, please contact [Rocco Caccioppoli](mailto:rocco.caccioppoli@cmcc.it) or [Rosalia Maglietta](mailto:rosalia.maglietta@cnr.it).
 
-## License
+## License [to ToC](#table-of-contents)
 
 This project is licensed under the [GPL 3.0 License](LICENSE).
