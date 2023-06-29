@@ -1,10 +1,12 @@
 import os
-import pandas as pd
 
-from src.lib.ml import model
-from src.conf import paths, variables
-from src.lib.utility import logger as logManager
+import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
+
+from src.conf import paths, variables
+from src.lib.ml import model
+from src.lib.utility import logger as logManager
+
 
 def training(logger=True):
     """Trains a classifier using presence and absence data.

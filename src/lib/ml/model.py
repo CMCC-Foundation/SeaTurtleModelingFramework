@@ -3,19 +3,21 @@ import os
 
 import numpy as np
 import pandas as pd
-from sklearn.base import ClassifierMixin, RegressorMixin
-from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
 from imblearn.ensemble import RUSBoostClassifier
-from sklearn.ensemble import AdaBoostClassifier
+from sklearn.base import ClassifierMixin
+from sklearn.ensemble import (AdaBoostClassifier, RandomForestClassifier,
+                              RandomForestRegressor)
 from sklearn.metrics import accuracy_score, mean_squared_error, r2_score
-from sklearn.model_selection import (GridSearchCV, RandomizedSearchCV, RepeatedKFold,
-                                     RepeatedStratifiedKFold, train_test_split)
+from sklearn.model_selection import (GridSearchCV, RandomizedSearchCV,
+                                     RepeatedKFold, RepeatedStratifiedKFold,
+                                     train_test_split)
 from skopt import BayesSearchCV
 from skopt.space import Categorical, Integer, Real
 
 from src.lib.utility import logger as logManager
-from src.lib.utility.printer import (plot_classification_report, plot_confusion_matrix,
-                             plot_feature_importance, plot_scatter)
+from src.lib.utility.printer import (plot_classification_report,
+                                     plot_confusion_matrix,
+                                     plot_feature_importance, plot_scatter)
 
 
 def train(

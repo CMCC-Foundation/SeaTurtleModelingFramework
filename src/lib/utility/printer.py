@@ -6,6 +6,7 @@ import pandas as pd
 import seaborn as sns
 from sklearn.metrics import classification_report, confusion_matrix
 
+
 def plot_scatter(writer, y_true, y_pred, label="Target"):
     """Generate a scatter plot of the predicted vs actual values.
 

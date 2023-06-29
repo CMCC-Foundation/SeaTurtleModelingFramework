@@ -1,7 +1,9 @@
-import bunch
 import os
-import yaml
+
+import bunch
 import munch
+import yaml
+
 
 def _load_path_from_yaml(file_name, root_path=os.getcwd()):
     """Loads a configuration file in YAML format and returns a Bunch object containing the paths specified in the file.

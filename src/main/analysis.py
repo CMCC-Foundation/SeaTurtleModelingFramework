@@ -1,9 +1,10 @@
 import os
+
 import pandas as pd
 
 from src.conf import paths, variables
-from src.lib.utility import logger as logManager
 from src.lib.analysis import statistics
+from src.lib.utility import logger as logManager
 
 
 def analysis(logger=True):
@@ -17,7 +18,7 @@ def analysis(logger=True):
     """
         
     if logger is True:
-        logger = logManager.setup(paths.log.analysis, level=10)
+        logger = logManager.setup(paths.log.analysis)
 
     presence = pd.read_excel(paths.input.presence.excel)
     logger.debug("presence shape = %s", str(presence.shape))
