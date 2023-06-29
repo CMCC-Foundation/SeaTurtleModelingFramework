@@ -1,0 +1,12 @@
+bunch==1.0.1
+imbalanced_learn==0.10.1
+imblearn==0.0
+matplotlib==3.6.0
+munch==2.5.0
+numpy==1.23.3
+pandas==1.4.2
+PyYAML==6.0
+scikit_learn==1.2.2
+scikit_optimize==0.9.0
+scipy==1.9.1
+seaborn==0.12.2
