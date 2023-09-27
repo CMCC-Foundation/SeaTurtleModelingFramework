@@ -42,7 +42,7 @@ To set up the project, follow these steps:
     ```
 2. Navigate to the project directory:
     ```
-    cd SeaTurtleModelingFramework`
+    cd SeaTurtleModelingFramework
     ```
 3. Create a virtual environment: 
     ```
