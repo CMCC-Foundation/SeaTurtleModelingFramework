@@ -8,5 +8,5 @@ pandas==1.4.2
 PyYAML==6.0
 scikit_learn==1.2.2
 scikit_optimize==0.9.0
-scipy==1.9.1
+scipy>=1.10.0
 seaborn==0.12.2
